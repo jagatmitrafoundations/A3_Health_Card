@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment files
+.env
+config/serviceAccountKey.json
+backend/.env
+frontend/.env
+JagatMitra-Care/backend/.env
+JagatMitra-Care/backend/config/serviceAccountKey.json
+backend/config/serviceAccountKey.json
+# Google Cloud credentials
+serviceAccountKey.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Frontend cache
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend cache / temp files
+backend/node_modules/
+backend/.cache/
+
+# Uploads / user files (optional, if you don’t want to push media)
+backend/uploads/
+
