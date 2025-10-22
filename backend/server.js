@@ -67,6 +67,13 @@ app.use('/api/auth', authUnified);
 app.use('/api/auth/insurance', insuranceAuthRoutes);
 app.use('/api/profile', profileRoutes); // <-- ADD THIS LINE
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'ok',
+    message: 'Server is up and running!'
+  });
+});
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
 
